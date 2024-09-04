@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Information Sheet</title>
+    <title>CABILDO PRELIM ACTIVITY 3 BOOTSTRAP</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
 
         body {
             background-color: white;
+            
         }
         #container {
             background-color: white;
@@ -80,7 +81,7 @@
             </div>
             <div class="form-group col-md-6">
                 <label for="telephone">Telephone:</label>
-                <input type="tel" class="form-control" id="telephone" placeholder="Enter telephone number" required>
+                <input type="tel" class="form-control" id="telephone" placeholder="Enter telephone number" maxlength="11" required>
             </div>
         </div>
 
@@ -91,7 +92,7 @@
             </div>
             <div class="form-group col-md-6">
                 <label for="contactMethod">Best Way to Contact You:</label>
-                <input type="text" class="form-control" id="contactMethod" placeholder="Enter contact method" required>
+                <input type="text" class="form-control" id="contactMethod" placeholder="Enter contact method" maxlength="11" required>
             </div>
         </div>
         <div class="form-row">
@@ -101,7 +102,7 @@
             </div>
             <div class="form-group col-md-6">
                 <label for="emergencyPhone">Emergency Contact Telephone:</label>
-                <input type="tel" class="form-control" id="emergencyPhone" placeholder="Enter emergency contact telephone" required>
+                <input type="tel" class="form-control" id="emergencyPhone" placeholder="Enter emergency contact telephone" maxlength="11" required>
             </div>
         </div>
 
